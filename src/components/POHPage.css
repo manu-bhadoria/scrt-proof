@@ -1,0 +1,48 @@
+.poh-page {
+  display: flex;
+  justify-content: space-between;
+  background-color: #121212;
+  color: white;
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.section {
+  flex: 1;
+}
+
+.left-section {
+  padding-right: 20px; 
+  align-items: center;
+}
+
+.logo {
+  width: 70%;
+  margin-bottom: 1em; 
+}
+
+.right-section {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start; 
+  height: fit-content; 
+}
+
+h2 {
+  color: #4CAF50; 
+  margin-bottom: 1em;
+}
+
+.wallet-address-display {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: green;
+  cursor: pointer;
+  font-size: 1.2em;
+}
